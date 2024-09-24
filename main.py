@@ -45,5 +45,6 @@ class WeatherApp(QMainWindow):
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = WeatherApp()
+    print("Working")
     window.show()
     sys.exit(app.exec_())
